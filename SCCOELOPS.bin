@@ -1,0 +1,353 @@
+[AppGrid]
+A1=app1
+B1=app2
+C1=app3
+D1=app4
+E1=app5
+A2=app6
+B2=app7
+C2=app8
+D2=app9
+E2=app10
+A3=app11
+B3=app3
+C3=X
+D3=X
+E3=X
+A4=X
+B4=X
+C4=X
+D4=X
+E4=X
+A5=X
+B5=X
+C5=X
+D5=X
+E5=X
+
+[links]
+coe=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/dashboards/9a107a11-1bcd-45ae-bb5d-db84e6fa8d00
+oi=https://owensillinois.sharepoint.com/sites/dash
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app1]
+title=Sales
+icon=sls.png
+color=0xF69449
+description=Tracks sales and inventory. Compares sales performance vs Previous year, Budget, Financial  and Consensus Forecasts. Details by country, market, end use, customer, color, and SKU.@CRLFInventory is segmented based on future sales (forecast) and quality status.
+support=JhonA.Caro@O-I.com
+developers=Jorge Zuluaga, Juan Garcia, Mauricio Rodriguez, Alejandro Barrera, Jhon Caro, David Gutierrez, Karlos Londo@no
+modules=5,6
+news=
+
+[app1_module1]
+legacy=a1m3
+#title=Americas
+icon=tableau
+#free=FREE-8EDFADE7919A7745A8325F0C2A24D5FB4F6F753C
+cryptcodename=EvolutionNew
+
+[app1_module2]
+legacy=a1m6
+#title=APAC
+icon=tableau
+cryptcodename=SalesAPAC
+
+[app1_module3]
+legacy=a1m4
+#title=Europe
+icon=tableau
+cryptcodename=SalesEurope
+
+[app1_module4]
+legacy=a1m7
+#title=Global
+icon=tableau
+cryptcodename=SalesGlobal
+
+[app1_module5]
+title=Sales Vision
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/a125a18d-1caf-4878-aa38-e03bc74f95a8?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=SalesGlobalPBI
+
+[app1_module6]
+title=IBP Demand Vision
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/12a53297-e336-40fd-906d-2f702eaee362?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=IBPPBI
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app2]
+title=Inventory FG
+icon=inv.png
+color=0xF5E841
+description=Allows high visibility of our inventory. Shows information by end use, market, customer, country, plant, color and SKU. Inventory quality is segmented based on aging, quality control and blocked.
+support=David.Gutierrez@O-I.com
+developers=Jorge Zuluaga, Juan Garcia, David Gutierrez, Karlos Londo@no, Alejandro Barrera
+modules=1
+news=
+
+[app2_module1]
+title=GLOBAL
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/d92144e3-7973-43c8-b1a7-905e3f537bda?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=Inventory
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[app3]
+title=Fcst Accuracy
+icon=acc.png
+color=0x8EDC9E
+description=Compares forecasted and actual shipments to measure forecast accuracy and bias regarding customer demand for a product. Shows information at Total O-I, Region, Country, Category, Customer, and Item levels.
+support=David.Gutierrez@O-I.com
+developers=Jorge Zuluaga, Juan Garcia, Monica Londo@no, David Gutierrez M.
+modules=2
+news=
+
+[app3_module1]
+#title=Global
+legacy=a8m1
+icon=tableau
+cryptcodename=GlobalFcstAccuracy
+
+[app3_module2]
+title=Forecast Accuracy
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/e0397716-7d61-4e68-b92a-05a401a72063?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=GlobalFcstAccuracyPBI
+
+[app3_module3]
+title=Forecast Bias
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/9d2f377e-95a4-4a6b-96e3-d7050aefeee8?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=GlobalFcstBiasPBI
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app4]
+title=Customer Service
+icon=otf.png
+color=0x6BCECB
+description=Checks service levels by using the sales, forecast and inventory levels to determine the reason for missed sales.
+support=Karlos.Londono@O-I.com; David.Gutierrez@O-I.com
+developers=Alexis Vernier, Juan Garcia, David Gutierrez M., Karlos Londo@no
+modules=1
+news=
+
+[app4_module1]
+title=Fcst vs Sales vs Inv
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/91416c16-7ddf-4027-b597-e6ca28cc6fd8/ReportSectionf1fd5bafd7c1c11960c0
+cryptcodename=GlobalOTIF
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app5]
+title=Capacity
+icon=cap.png
+color=0xCD3F3E
+description=Color Calendar for America is updated the 1st week of the each month.@CRLFColor Calendar for Europe is updated on a weekly basis. Presents visibility of planed color changes and execution of this plan.
+support=Andrea.Aristizabal@o-i.com; Katarzyna.Kosinska@o-i.com
+developers=Color Calendar Americas: Andrea Aristizabal@CRLFColor Calendar Europe: Katarzyna Kosinska
+modules=2,3
+news=
+
+[app5_module1]
+#title=Global
+legacy=a10m1
+icon=tableau
+cryptcodename=CapacityLA
+
+
+
+[app5_module2]
+title=Color Calendar Americas
+updated=ONLINE
+icon=excel
+loader=web
+binary=https://owensillinois-my.sharepoint.com/:x:/g/personal/andrea_aristizabal_o-i_com/EbC-GQEnw9lJp8uF50WCCyMBi-Kta5g0exSMeRRbx8TSnw
+cryptcodename=ColorCalendarExcel
+
+
+
+[app5_module3]
+title=Color Calendar Europe
+updated=ONLINE
+icon=excel
+loader=web
+binary=https://owensillinois.sharepoint.com/:x:/r/teams/EUSupplyPlanning/_layouts/15/Doc.aspx?sourcedoc=%7BCAEAE910-33EA-4152-BD3B-30EB9F2E82B3%7D&file=2021_Weekly%20CC%20Project%20plan%20-%20CC%20schedule.xlsx&action=default&mobileredirect=true
+cryptcodename=ColorCalendarExcelEU
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app6]
+title=Quality
+icon=qlt.png
+color=0x4EBDE8
+description=Quality Indexes Report (Complaints, Blocked, COPQ, PLCC and Slow moving)
+support=Eliney.Rogalsky@o-i.com; Carolina.DelMonaco@o-i.com
+developers=Eliney Rogalsky, Jaime A Betancur@CRLFHeldware Generation Report: Carolina del Monaco
+modules=3
+news=
+
+[app6_module1]
+legacy=a11m1
+icon=tableau
+cryptcodename=AmericasQuality
+
+[app6_module2]
+legacy=a11m2
+icon=tableau
+cryptcodename=AmericasQuality
+
+[app6_module3]
+title=Heldware Generation Report
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/b142e7db-328f-4ac8-af36-36d7e9de61c7/reports/bbb01d69-f69e-470e-9976-09948e177190?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=AmericasQuality
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app7]
+title=ES Tracker
+icon=est.png
+color=0x75b79e
+description=ES Tracker App Description
+support=Alejandro.Barrera@O-I.com
+developers=Jorge Zuluaga, Camilo Molina, Alvaro Jaramillo, Alejandro Barrera
+modules=1
+news=
+
+[app7_module1]
+title=Global
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/a4d473db-8c11-4d22-af16-80b19a610618?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=ESTrackerGlobal
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app8]
+title=Inventory NFG
+icon=nfg.png
+#color=0xDCEDC1
+color=0x866A97
+description=Inventory Non Finished Goods App Description
+support=Pablo.Merizalde@O-I.com
+developers=Mauricio Suarez, Gonzalo Del Castillo, Pablo Merizalde
+modules=1
+news=
+
+[app8_module1]
+title=Global
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/6c8f81b5-bd0d-4a81-937d-679a7b4b5dc7?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=InventoryNFGGlobal
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app9]
+title=Energy Curves
+icon=egy.png
+#color=0xFFD3B6
+color=0xD99F7A
+description=Energy Curves App Description
+support=Julian.Martinez@o-i.com
+developers=Mauricio Suarez, Noel Wendt, Julian Martinez
+modules=1,2
+news=
+
+[app9_module1]
+title=Stability Curve (Metric)
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/0f8c01d7-65d4-4843-a57d-bf4a0d049ad9?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=StabilityCurve
+
+[app9_module2]
+title=Stability Curve (Imperial)
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/3f6ba869-fb6c-4d58-87fb-e8421c2773d2?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=StabilityCurve
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app10]
+title=Glass Composition
+icon=gcp.png
+color=0xC06C84
+description=Glass Composition App Description
+support=Pablo.Merizalde@O-I.com
+developers=Mauricio Suarez, Pablo Merizalde
+modules=1
+news=
+
+[app10_module1]
+title=Global
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/2ae9733f-0b02-40aa-a757-110023300512?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=GlassComposition
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[app11]
+title=NFG E2E 
+icon=nfge2e.png
+#color=0xDCEDC1
+color=0x92A2D2
+description=The solution analyzes current inventories, purchase orders and production plans to detect possible disruptions due to unavailability of raw materials as well as returnable and non-returnable packaging materials. It uses several data sources, such as the production plan from SAP-APO and the bill of materials from SAP.
+support=Monica.LondonoMoreno@o-i.com; Pablo.Merizalde@o-i.com
+developers=Jorge Zuluaga, Camilo Molina, Monica Londo@no, Pablo Merizalde
+modules=1
+news=
+
+[app11_module1]
+title=NFG E2E (Beta)
+updated=ONLINE
+icon=powerbi
+loader=web
+binary=https://app.powerbi.com/groups/ae2bafaa-97a8-4278-88bd-3e0279abd153/reports/40a7c623-6c1e-4753-aeea-743cb9474879?ctid=af0ee343-0c80-42be-aeac-d688e63ecf48
+cryptcodename=NFGE2E
+;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
